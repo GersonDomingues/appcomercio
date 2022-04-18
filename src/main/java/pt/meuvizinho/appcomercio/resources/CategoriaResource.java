@@ -1,5 +1,7 @@
 package pt.meuvizinho.appcomercio.resources;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,5 +26,10 @@ public class CategoriaResource {
 		return ResponseEntity.ok(obj);
 	}
 
-	
+	@RequestMapping(method = RequestMethod.GET)
+	public ResponseEntity<List<Categoria>> findALL() {
+		List<Categoria> lista = service.findAll();
+
+		return ResponseEntity.ok(lista);
+	}
 }
