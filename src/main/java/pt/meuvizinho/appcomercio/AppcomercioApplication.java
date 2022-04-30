@@ -35,45 +35,45 @@ public class AppcomercioApplication implements CommandLineRunner {
 		Categoria cat5 = new Categoria(null, "Lanche");
 		Categoria cat6 = new Categoria(null, "Bebida");
 
-		Produto p1 = new Produto(null, "Sopa Juliana", "Sopa Juliana", 2.50);
-		Produto p2 = new Produto(null, "Sopa Feijão", "Sopa feijão", 2.50);
-		Produto p3 = new Produto(null, "Sopa Alho Francês", "Alho Francês", 2.50);
-		Produto p4 = new Produto(null, "Sopa Canja", "Sopa Canja", 2.50);
-		Produto p5 = new Produto(null, "Caldo Verde", "Caldo Verde", 2.50);
+		Produto p1 = new Produto(null, "Grissini", "grissinos italianos", 2.65);
+		Produto p2 = new Produto(null, "Bruschetta al aglio", "Pão de alho", 2.65);
+		Produto p3 = new Produto(null, "Antipasto misto", "presunto, salame, espargos e fiambre", 2.65);
+		Produto p4 = new Produto(null, "Cicio", "Disco de massa de pizza com azeite e oregãos", 2.65);
+		Produto p5 = new Produto(null, "Mozzarella e pommodoro", "Mozzarella, alho, tomate, manjericão fresco e azeite", 2.65);
 
-		Produto p6 = new Produto(null, "Pizza Marguerita", "Pizza Marguerita", 2.50);
-		Produto p7 = new Produto(null, "Canelloni di Carne", "Canelloni di Carne", 2.50);
-		Produto p8 = new Produto(null, "Canelloni di Spinaci", "Canelloni di Spinaci", 2.50);
-		Produto p9 = new Produto(null, "Lasagna Verde", "Lasagna Verde", 2.50);
-		Produto p10 = new Produto(null, "Lasagna di Carne", "Lasagna di Carne", 2.50);
+		Produto p6 = new Produto(null, "Pizza Marguerita", "Molho de tomate, mozzarella e oregãos", 4.55);
+		Produto p7 = new Produto(null, "Canelloni di Carne", "Canelloni com recheio de frango e porco picada", 7.85);
+		Produto p8 = new Produto(null, "Canelloni di Spinaci", "Canelloni com recheio de requeijão e espinafres", 7.85);
+		Produto p9 = new Produto(null, "Lasagna Verde", "Lasanha de massa de espinafres com recheio de carne picada", 7.85);
+		Produto p10 = new Produto(null, "Lasagna di Carne", "Lasanha com recheio de carne picada", 7.85);
 
-		Produto p11 = new Produto(null, "Bolo de Chocolate", "Bolo de Chocolate", 2.50);
-		Produto p12 = new Produto(null, "Tiramissu", "Tiramissu", 2.50);
-		Produto p13 = new Produto(null, "Delícia de Maça", "Delícia de Maça", 2.50);
-		Produto p14 = new Produto(null, "Mousse de Chocolate", "Mousse de Chocolate", 2.50);
-		Produto p15 = new Produto(null, "Crepe com Gelado", "Crepe com Gelado", 2.50);
+		Produto p11 = new Produto(null, "Bolo de Chocolate", "Bolo de Chocolate (produção da casa)", 3.55);
+		Produto p12 = new Produto(null, "Tiramissu", "Tiramissu (produção da casa)", 5.75);
+		Produto p13 = new Produto(null, "Delícia de Maça", "Delícia de Maça (produção da casa)", 6.45);
+		Produto p14 = new Produto(null, "Mousse de Chocolate", "Mousse de Chocolate (produção da casa)", 5.75);
+		Produto p15 = new Produto(null, "Crepe com Gelado", "Crepe com duas bolas de gelado", 8.35);
 
 		Produto p16 = new Produto(null, "Sandes", "Sandes", 2.50);
-		Produto p17 = new Produto(null, "Sandes Mista", "Sandes Mista", 2.50);
+		Produto p17 = new Produto(null, "Sandes Mista", "Pão, fiambre e queijo", 2.50);
 		Produto p18 = new Produto(null, "Pastel de nata", "Pastel de nata", 2.50);
-		Produto p19 = new Produto(null, "coxinha", "Coxinha", 2.50);
-		Produto p20 = new Produto(null, "Croquete", "Croquete", 2.50);
+		Produto p19 = new Produto(null, "Bola de Berlim", "Bola de Berlim", 2.50);
+		Produto p20 = new Produto(null, "Mil folhas", "Massa folhada recheada com um creme de confeiteiro", 2.50);
 
-		Produto p21 = new Produto(null, "Água Mineral 500ml", "Água Mineral 500ml", 2.50);
-		Produto p22 = new Produto(null, "Suco de Laranja", "Suco de Laranja", 2.50);
-		Produto p23 = new Produto(null, "Limonada", "Limonada", 2.50);
-		Produto p24 = new Produto(null, "Taça de Vinho", "Taça de Vinho", 2.50);
-		Produto p25 = new Produto(null, "Cerveja Sagres 500ml", "Cerveja Sagres 500ml", 2.50);
+		Produto p21 = new Produto(null, "Água Mineral 500ml", "Água Mineral 500ml", 1.75);
+		Produto p22 = new Produto(null, "Suco de Laranja", "Sumo de Laranja", 4.25);
+		Produto p23 = new Produto(null, "Limonada", "Sumo de limão", 4.25);
+		Produto p24 = new Produto(null, "Taça de Vinho", "Taça de Vinho (vinho da casa)", 4.45);
+		Produto p25 = new Produto(null, "Vinho Tinto Periquita 1/2", "Vinho Tinto Periquita 1/2 região do Alentejo", 3.35);
 
-		cat1.getProdutos().addAll(Arrays.asList(p1, p6, p11));
+		cat1.getProdutos().addAll(Arrays.asList(p2, p6, p11));
 		cat2.getProdutos().addAll(Arrays.asList(p1, p2, p3, p4, p5));
 		cat3.getProdutos().addAll(Arrays.asList(p6, p7, p8, p9, p10));
 		cat4.getProdutos().addAll(Arrays.asList(p11, p12, p13, p14, p15));
 		cat5.getProdutos().addAll(Arrays.asList(p16, p17, p18, p19, p20));
 		cat6.getProdutos().addAll(Arrays.asList(p21, p22, p23, p24, p25));
 
-		p1.getCategorias().addAll(Arrays.asList(cat1, cat2));
-		p2.getCategorias().addAll(Arrays.asList(cat2));
+		p1.getCategorias().addAll(Arrays.asList(cat2));
+		p2.getCategorias().addAll(Arrays.asList(cat1, cat2));
 		p3.getCategorias().addAll(Arrays.asList(cat2));
 		p4.getCategorias().addAll(Arrays.asList(cat2));
 		p5.getCategorias().addAll(Arrays.asList(cat2));
